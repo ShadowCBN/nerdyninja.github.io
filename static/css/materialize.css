@@ -4219,6 +4219,14 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "Product Sans";
+  src: url('../fonts/productsans/ProductSans-Regular.eot');
+  src: url('../fonts/productsans/ProductSans-Regular.woff2') format('woff2'),
+       url('../fonts/productsans/ProductSans-Regular.woff') format('woff'),
+       url('../fonts/productsans/ProductSans-Regular.ttf')  format('truetype');
+}
+
 html {
   line-height: 1.5;
   font-family: "Product Sans", sans-serif;
