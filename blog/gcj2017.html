@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="../static/css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta charset="utf-8">
+	<meta name="theme-color" content="#ff6c68">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="nerdyninja">
+	<meta name="classification" content="technology, engineering, development, science and design">
+	<meta name="keywords"
+	      content="">
+
+	<title>Code Jam 2017. That time of year, again :-)</title>
+
+</head>
+
+<body>
+
+	<nav style="background-color: #ff6c68;">
+		<div class="nav-wrapper">
+			<a href="/" class="brand-logo " style="color:rgba(0,0,0,0.87);">nerdyninja</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars " style="color:rgba(0,0,0,0.87);"></i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="about.html" class="" style="color:rgba(0,0,0,0.87);">About</a></li>
+				<li><a href="projects.html" class="" style="color:rgba(0,0,0,0.87);">Projects</a></li>
+				<li><a href="blog/" class="" style="color:rgba(0,0,0,0.87);">Blog</a></li>
+				<li><a href="contact.html" class="" style="color:rgba(0,0,0,0.87);">Contact</a></li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+				<li><a href="about.html" class="" style="color:rgba(0,0,0,0.87);">About</a></li>
+				<li><a href="projects.html" class="" style="color:rgba(0,0,0,0.87);">Projects</a></li>
+				<li><a href="blog/" class="" style="color:rgba(0,0,0,0.87);">Blog</a></li>
+				<li><a href="contact.html" class="" style="color:rgba(0,0,0,0.87);">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="row">
+		<div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+			<div class="card" style="background-color: #ff6c68;margin-top: 10%; margin-bottom: 10%;">
+				<div class="card-content center" style="color:rgba(0,0,0,0.87);font-size: 1.1rem;">
+					<span class="card-title"><i class="fa fa-message"></i> Code Jam 2017. That time of year, again :-)</span>
+					After a very big gap (and <em>#define confidence NULL</em>) I came back on grounds of CP.
+					Last year was fun, only till Round 1x which went pretty much okay, as you can see below. It was my first GCJ and I did very bad! ICYMI, nerdyninja wasn't there last year :P<br>
+					<br><center><img class="materialboxed" width="300" src="../media/gcj2016_rankings.png"></center><br>
+					Moving right along... I'm gonna keep it very simple. I'll talk about topics, which are very easy to understand for beginners.<br>
+					<h5 style="font-size: 1.4rem;">1. &nbsp;Bipartite Graph</h5>
+					In a coloring of a graph, each node is assigned a color so that no adjacent nodes have the same color.<br>
+					A graph is bipartite if it is possible to color it using two colors. It turns out
+					that a graph is bipartite exactly when it does not contain a cycle with an odd
+					number of edges. For example, the given below graph is bipartite, because it can be colored only using 2 colors and <b>without having 2 adjacent nodes of same color.</b><br>
+					<br><center><img class="materialboxed" width="300" src="../media/bipartite.png"></center><br>
+					PROBLEM RECOMMENDED: http://www.spoj.com/problems/BUGLIFE/
+
+				</div>
+				<div class="card-action">
+					<a href="#" target="_blank" style="color:rgba(0,0,0,0.87);text-transform: none;">
+						<i class="fa fa-clock-o"></i> &nbsp;Created: <em>2 April 2017</em>&nbsp;&nbsp;&nbsp;&nbsp;
+						<i class="fa fa-clock-o"></i> &nbsp;Updated: <em>2 April 2017</em></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="page-footer grey lighten-4 grey-text text-darken-1">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m6 l6">
+					<p style="font-size: 1.4em; font-weight: 400;">Omkar Prabhu</p>
+					<p>All Rights Reserved. Designed using Materialize CSS :)</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="../static/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="../static/js/materialize.min.js"></script>
+	<script type="text/javascript">
+		$(".button-collapse").sideNav();
+	</script>
+</body>
+</html>
