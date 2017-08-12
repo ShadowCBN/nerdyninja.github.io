@@ -1,0 +1,31 @@
+a:focus, button:focus {
+	outline: none;
+}
+a {
+	color: rgba(255,255,244,1);
+	text-decoration: none !important;
+}
+a:hover, a:focus {
+	color: #e5e5e5;
+}
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+}
+.social-icon {
+	color: rgba(255,255,255,1);
+	font-size: 20px;
+}
+.msg-section {
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px;
+	margin-top: 15px;
+}
+.contact-section {
+	padding: 20px;
+	margin-top: 15px;
+	text-align: center;
+}
