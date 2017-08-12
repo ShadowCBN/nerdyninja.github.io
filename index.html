@@ -37,6 +37,7 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="static/css/animate.css">
 </head>
 <body>	
 	<!-- Navbar !-->
@@ -53,26 +54,22 @@
 	</ul>
 	<!-- Main Body !-->
 	<div class="container">
-		<div class="row justify-content-md-center">
-			<div class="col col-md-6">
-				<p class="msg-section">
-					WE ALL REACH A POINT IN OUR LIVES AND CAREERS WHERE WE UNDERSTAND WHAT MATTERS THE MOST TO US.
-				</p>
-				<p align="center">
-					The next stage will be all about my love for Competitive Programming and Aritificial Intelligence. 
-					It is the beginning of something new.
-					<br>
-					<br>
-					Hope you'll enjoy it as much as I do.
-				</p>
-				<p class="contact-section">
-					<a href="mailto:omkar.prabhu15@siesgst.ac.in"><i class="fa fa-paper-plane"></i> Shoot me a mail!</a>
-				</p>
+		<div class="row justify-content-center topgap">
+			<div class="landing-card home animated fadeInLeft" onclick="loadHome()">
+				<h1 class="thin card-title">WELCOME</h1>
+			</div>
+			<div class="landing-card about animated fadeInRight" onclick="loadAbout()">
+				<h1 class="thin card-title">ABOUT</h1>
 			</div>
 		</div>
-	</div>
-	<div class="omk_ar_pita">
-		<img src="images/omk_ar_pita.jpg">
+		<div class="row justify-content-center">
+			<div class="landing-card cp animated fadeInUp" onclick="loadCP()">
+				<h1 class="thin card-title">CP</h1>
+			</div>
+			<div class="landing-card ai animated fadeInDown" onclick="loadAI()">
+				<h1 class="thin card-title">AI</h1>
+			</div>
+		</div>
 	</div>
 	<!-- Footer !-->
 	<div class="container">
@@ -86,5 +83,7 @@
 	<!-- Scripts !-->
 	<script type="text/javascript" src="static/js/jquery.min.js"></script>
 	<script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="static/js/smooth-scroll.min.js"></script>
+	<script type="text/javascript" src="static/js/script.js"></script>
 </body>
 </html>
