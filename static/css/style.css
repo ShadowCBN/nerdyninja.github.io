@@ -29,3 +29,22 @@ html, body {
 	margin-top: 15px;
 	text-align: center;
 }
+.omk_ar_pita {
+    opacity: 0.5;
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+.omk_ar_pita img{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.true_logo {
+	width: 24px;
+}
+.footer {
+	padding: 15px;
+	margin-top: 15px;
+}
